@@ -40,7 +40,7 @@ body{
   height: calc(100% / 4 - 10px);
   width: calc(100% / 4 - 10px);
 }
-/* .card.shake{
+.card.shake{
   animation: shake 0.35s ease-in-out;
 }
 @keyframes shake {
@@ -59,7 +59,7 @@ body{
   80%{
     transform: translateX(8px);
   }
-} */
+}
 .card .view{
   width: 100%;
   height: 100%;
@@ -77,17 +77,16 @@ body{
 .card .back-view img{
   max-width: 45px;
 }
-/* .card .back-view{
+.card .back-view{
   transform: rotateY(-180deg);
-} */
-/* .card.flip .back-view{
+}
+.card.flip .back-view{
   transform: rotateY(0);
 }
 .card.flip .front-view{
   transform: rotateY(180deg);
-} */
-
-/* @media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 700px) {
   .cards{
     height: 350px;
     width: 350px;
@@ -99,7 +98,6 @@ body{
     max-width: 40px;
   }
 }
-
 @media screen and (max-width: 530px) {
   .cards{
     height: 300px;
@@ -111,4 +109,4 @@ body{
   .card .back-view img{
     max-width: 35px;
   }
-} */
+}
